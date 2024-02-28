@@ -12,9 +12,9 @@ terraform {
 
   backend "s3" {
 
-    bucket  = "lafloreast"    //manually created 
+    bucket  = "laflortfstate"    //manually created 
     key     = "ecr/terraform.tfstate"
-    region  = "us-east-1"
+    region  = "us-west-2"
     encrypt = true
 
  
